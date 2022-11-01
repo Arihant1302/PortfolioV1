@@ -1,0 +1,303 @@
+
+html,body{
+  margin: 0 !important;
+  padding: 0 !important;
+
+}
+
+.body{
+  background-color:rgb(60,61,61,255);
+}
+
+
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  font-size: 1cm;
+}
+
+h2{
+  text-decoration: underline;
+}
+
+h3{
+  
+  font-size: 1.2em;
+  color: black;
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+   
+body{
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+p{
+  color: black;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*main heading*/
+
+@font-face {
+    font-family: myfont ;
+    src: url("../fonts/Alexandra.otf") ;
+}
+
+@font-face {
+  font-family: myfont2;
+  src: url("../fonts/rooster.ttf");
+}
+
+@font-face {
+  font-family: aquire;
+  src: url(../fonts/AquireBold-8Ma60.otf);
+}
+
+@font-face {
+  font-family: aquire2;
+  src: url(../fonts/AquireLight-YzE0o.otf);
+}
+.banner-area{
+  background: url(../pics/gtt.jpg);  
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+
+.banner-mh{
+  color: white;
+  font-family: aquire;
+  font-size: 2cm;
+  font-family: aquire;
+  text-align: center;
+}
+
+.banner-sh{
+  color: white;
+  font-size: 0.8cm;
+  text-align: center;
+}
+
+.intro{
+  color: white;
+  font-size: 0.5cm;
+  text-align: center;
+}
+
+.banner{
+  list-style-type: none;
+}
+
+.banner li{
+  display: inline-block;
+}
+
+
+
+/*navigation bar*/
+.navbar{
+  background-color:rgb(60,61,61,255);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  opacity: 0.95;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  color:black;
+  font-weight: bold;
+  padding-left: 100px;
+}
+.navbar-nav li a{
+  margin: 0;
+}
+
+.navbar-collapse{
+
+}
+
+.navbar-collapse li{
+  list-style: none;
+}
+
+.navbar-collapse li a{
+  text-align: center;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+
+.nav-item:hover{
+  background-color: yellowgreen;
+}
+
+
+/*container for skills section*/
+
+.container-fluid{
+  padding-top:20px;
+  background-color:rgb(60,61,61,255);
+  background-attachment: fixed;
+  padding-bottom: 50px;
+}
+.skills{
+  background-color: white;
+  background-attachment: fixed;
+  padding-bottom: 50px;
+  border-radius: 45px;
+}
+
+.sk{
+  margin: 15px;
+  padding: 10px 0px 10px 0px;
+}
+
+.skill_tag{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  font-size: 1.8cm;
+}
+
+.prog,.tools,.slist,.sskills{
+  list-style-type:none;
+
+}
+
+.prog li,.tools li,.slist li{
+  display: inline-block;
+}
+
+.icons{
+  height: 60px;
+  padding: 5.5px;
+  width: 60px;
+  margin: 0px;
+}
+
+.brs-gif{
+  height:350px;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+.experience{
+  list-style-type: none;
+}
+
+.exp-tag{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  font-size: 1.8cm;
+}
+.row{
+  padding-left: 50px;
+}
+
+.experience ul li{
+  display: inline-block;
+}
+
+.proj-head{
+  padding:10px 10px;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+.proj-exp-list{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.live-button{
+  padding-left:15px;
+  padding-right:15px;
+  background-color: crimson;
+  border-style: none;
+  outline-color: aqua;
+}
+
+.live-button:hover{
+  background-color: yellowgreen;
+}
+.git-link{
+  padding-left:50px;
+}
+
+.c_head{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  font-size: 1.8cm;
+}
+
+.c_list{
+  list-style-type: none;
+  text-align: top;
+  margin: 12px;
+
+}
+
+.c_list li{
+  display:inline-block;
+  padding:10px;
+  border-radius: 10px;
+  margin: 0px;
+}
+
+.card-img{
+  height: 200px;
+  width: 300px;
+}
+
+/*modal certificates*/
+.btn{
+  padding: 0;
+  margin: 0;
+}
+.top{
+  text-align: center;
+}
+
+footer{
+}
+/*icons of resume,linkedin,github*/
+
+.buttons{
+  list-style-type: none;
+ 
+}
+.buttons li{
+  display: inline-block;
+}
+
+.resume{
+  font-family: aquire;
+  font-size: 1.2em;
+  color: yellowgreen;
+  text-decoration: double;
+  border-radius: 20px;
+  font-weight: bold;
+
+}
+
+.resume:hover{
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  border: 50px;
+}
+
+
+
+
+
+
+
