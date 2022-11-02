@@ -44,7 +44,7 @@ p{
 
 @font-face {
     font-family: myfont ;
-    src: url("./fonts/Alexandra.otf") ;
+    src: url(./fonts/Alexandra.otf) ;
 }
 
 @font-face {
