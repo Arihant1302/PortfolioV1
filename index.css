@@ -44,25 +44,25 @@ p{
 
 @font-face {
     font-family: myfont ;
-    src: url(./fonts/Alexandra.otf) ;
+    src: url("fonts/Alexandra.otf") ;
 }
 
 @font-face {
   font-family: myfont2;
-  src: url("./fonts/rooster.ttf");
+  src: url("fonts/rooster.ttf");
 }
 
 @font-face {
   font-family: aquire;
-  src: url("./fonts/AquireBold-8Ma60.otf");
+  src: url("fonts/AquireBold-8Ma60.otf");
 }
 
 @font-face {
   font-family: aquire2;
-  src: url("./fonts/AquireLight-YzE0o.otf");
+  src: url("fonts/AquireLight-YzE0o.otf");
 }
 .banner-area{
-  background: url("./pics/gtt.jpg");  
+  background: url("pics/gtt.jpg");  
   -webkit-background-size:cover;
   background-size: cover;
   background-position: center center;
